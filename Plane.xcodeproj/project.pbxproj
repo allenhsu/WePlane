@@ -16,6 +16,27 @@
 		9F03AFB617DDFE09008F6B03 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFB517DDFE09008F6B03 /* Default.png */; };
 		9F03AFB817DDFE09008F6B03 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFB717DDFE09008F6B03 /* Default@2x.png */; };
 		9F03AFBA17DDFE09008F6B03 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFB917DDFE09008F6B03 /* Default-568h@2x.png */; };
+		9F03AFCF17DDFE19008F6B03 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFC117DDFE19008F6B03 /* bullet.png */; };
+		9F03AFD017DDFE19008F6B03 /* bullet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFC217DDFE19008F6B03 /* bullet@2x.png */; };
+		9F03AFD117DDFE19008F6B03 /* cloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFC317DDFE19008F6B03 /* cloud1.png */; };
+		9F03AFD217DDFE19008F6B03 /* cloud1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFC417DDFE19008F6B03 /* cloud1@2x.png */; };
+		9F03AFD317DDFE19008F6B03 /* cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFC517DDFE19008F6B03 /* cloud2.png */; };
+		9F03AFD417DDFE19008F6B03 /* cloud2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFC617DDFE19008F6B03 /* cloud2@2x.png */; };
+		9F03AFD517DDFE19008F6B03 /* cloud3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFC717DDFE19008F6B03 /* cloud3.png */; };
+		9F03AFD617DDFE19008F6B03 /* cloud3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFC817DDFE19008F6B03 /* cloud3@2x.png */; };
+		9F03AFD717DDFE19008F6B03 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFC917DDFE19008F6B03 /* enemy.png */; };
+		9F03AFD817DDFE19008F6B03 /* enemy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFCA17DDFE19008F6B03 /* enemy@2x.png */; };
+		9F03AFD917DDFE19008F6B03 /* plane-rear-fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFCB17DDFE19008F6B03 /* plane-rear-fire.png */; };
+		9F03AFDA17DDFE19008F6B03 /* plane-rear-fire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFCC17DDFE19008F6B03 /* plane-rear-fire@2x.png */; };
+		9F03AFDB17DDFE19008F6B03 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFCD17DDFE19008F6B03 /* plane.png */; };
+		9F03AFDC17DDFE19008F6B03 /* plane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F03AFCE17DDFE19008F6B03 /* plane@2x.png */; };
+		9F03AFE017DDFE41008F6B03 /* PLNEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F03AFDF17DDFE41008F6B03 /* PLNEnemy.m */; };
+		9F03AFE417DE00E7008F6B03 /* PLNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F03AFE317DE00E7008F6B03 /* PLNMainViewController.m */; };
+		9F03AFE817DE0291008F6B03 /* PLNMyPlaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F03AFE717DE0291008F6B03 /* PLNMyPlaneView.m */; };
+		9FF93FA917DE076B0088589C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF93FA717DE076B0088589C /* background.png */; };
+		9FF93FAA17DE076B0088589C /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF93FA817DE076B0088589C /* background@2x.png */; };
+		9FF93FAC17DE0E7A0088589C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF93FAB17DE0E7A0088589C /* QuartzCore.framework */; };
+		9FF93FAF17DE12360088589C /* PLNEnemyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF93FAE17DE12360088589C /* PLNEnemyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +53,31 @@
 		9F03AFB517DDFE09008F6B03 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9F03AFB717DDFE09008F6B03 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9F03AFB917DDFE09008F6B03 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9F03AFC117DDFE19008F6B03 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		9F03AFC217DDFE19008F6B03 /* bullet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bullet@2x.png"; sourceTree = "<group>"; };
+		9F03AFC317DDFE19008F6B03 /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
+		9F03AFC417DDFE19008F6B03 /* cloud1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud1@2x.png"; sourceTree = "<group>"; };
+		9F03AFC517DDFE19008F6B03 /* cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud2.png; sourceTree = "<group>"; };
+		9F03AFC617DDFE19008F6B03 /* cloud2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud2@2x.png"; sourceTree = "<group>"; };
+		9F03AFC717DDFE19008F6B03 /* cloud3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud3.png; sourceTree = "<group>"; };
+		9F03AFC817DDFE19008F6B03 /* cloud3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud3@2x.png"; sourceTree = "<group>"; };
+		9F03AFC917DDFE19008F6B03 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		9F03AFCA17DDFE19008F6B03 /* enemy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemy@2x.png"; sourceTree = "<group>"; };
+		9F03AFCB17DDFE19008F6B03 /* plane-rear-fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane-rear-fire.png"; sourceTree = "<group>"; };
+		9F03AFCC17DDFE19008F6B03 /* plane-rear-fire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane-rear-fire@2x.png"; sourceTree = "<group>"; };
+		9F03AFCD17DDFE19008F6B03 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		9F03AFCE17DDFE19008F6B03 /* plane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane@2x.png"; sourceTree = "<group>"; };
+		9F03AFDE17DDFE41008F6B03 /* PLNEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLNEnemy.h; sourceTree = "<group>"; };
+		9F03AFDF17DDFE41008F6B03 /* PLNEnemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLNEnemy.m; sourceTree = "<group>"; };
+		9F03AFE217DE00E7008F6B03 /* PLNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLNMainViewController.h; sourceTree = "<group>"; };
+		9F03AFE317DE00E7008F6B03 /* PLNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLNMainViewController.m; sourceTree = "<group>"; };
+		9F03AFE617DE0291008F6B03 /* PLNMyPlaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLNMyPlaneView.h; sourceTree = "<group>"; };
+		9F03AFE717DE0291008F6B03 /* PLNMyPlaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLNMyPlaneView.m; sourceTree = "<group>"; };
+		9FF93FA717DE076B0088589C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		9FF93FA817DE076B0088589C /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		9FF93FAB17DE0E7A0088589C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9FF93FAD17DE12360088589C /* PLNEnemyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLNEnemyView.h; sourceTree = "<group>"; };
+		9FF93FAE17DE12360088589C /* PLNEnemyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLNEnemyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF93FAC17DE0E7A0088589C /* QuartzCore.framework in Frameworks */,
 				9F03AFA417DDFE09008F6B03 /* UIKit.framework in Frameworks */,
 				9F03AFA617DDFE09008F6B03 /* Foundation.framework in Frameworks */,
 				9F03AFA817DDFE09008F6B03 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +115,7 @@
 		9F03AFA217DDFE09008F6B03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FF93FAB17DE0E7A0088589C /* QuartzCore.framework */,
 				9F03AFA317DDFE09008F6B03 /* UIKit.framework */,
 				9F03AFA517DDFE09008F6B03 /* Foundation.framework */,
 				9F03AFA717DDFE09008F6B03 /* CoreGraphics.framework */,
@@ -78,6 +126,10 @@
 		9F03AFA917DDFE09008F6B03 /* Plane */ = {
 			isa = PBXGroup;
 			children = (
+				9F03AFE517DE027E008F6B03 /* Views */,
+				9F03AFE117DE00CF008F6B03 /* Controllers */,
+				9F03AFDD17DDFE1B008F6B03 /* Models */,
+				9F03AFC017DDFE10008F6B03 /* Resources */,
 				9F03AFB217DDFE09008F6B03 /* PLNAppDelegate.h */,
 				9F03AFB317DDFE09008F6B03 /* PLNAppDelegate.m */,
 				9F03AFAA17DDFE09008F6B03 /* Supporting Files */,
@@ -97,6 +149,58 @@
 				9F03AFB917DDFE09008F6B03 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F03AFC017DDFE10008F6B03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FF93FA717DE076B0088589C /* background.png */,
+				9FF93FA817DE076B0088589C /* background@2x.png */,
+				9F03AFC117DDFE19008F6B03 /* bullet.png */,
+				9F03AFC217DDFE19008F6B03 /* bullet@2x.png */,
+				9F03AFC317DDFE19008F6B03 /* cloud1.png */,
+				9F03AFC417DDFE19008F6B03 /* cloud1@2x.png */,
+				9F03AFC517DDFE19008F6B03 /* cloud2.png */,
+				9F03AFC617DDFE19008F6B03 /* cloud2@2x.png */,
+				9F03AFC717DDFE19008F6B03 /* cloud3.png */,
+				9F03AFC817DDFE19008F6B03 /* cloud3@2x.png */,
+				9F03AFC917DDFE19008F6B03 /* enemy.png */,
+				9F03AFCA17DDFE19008F6B03 /* enemy@2x.png */,
+				9F03AFCB17DDFE19008F6B03 /* plane-rear-fire.png */,
+				9F03AFCC17DDFE19008F6B03 /* plane-rear-fire@2x.png */,
+				9F03AFCD17DDFE19008F6B03 /* plane.png */,
+				9F03AFCE17DDFE19008F6B03 /* plane@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9F03AFDD17DDFE1B008F6B03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F03AFDE17DDFE41008F6B03 /* PLNEnemy.h */,
+				9F03AFDF17DDFE41008F6B03 /* PLNEnemy.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9F03AFE117DE00CF008F6B03 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F03AFE217DE00E7008F6B03 /* PLNMainViewController.h */,
+				9F03AFE317DE00E7008F6B03 /* PLNMainViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9F03AFE517DE027E008F6B03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F03AFE617DE0291008F6B03 /* PLNMyPlaneView.h */,
+				9F03AFE717DE0291008F6B03 /* PLNMyPlaneView.m */,
+				9FF93FAD17DE12360088589C /* PLNEnemyView.h */,
+				9FF93FAE17DE12360088589C /* PLNEnemyView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +259,22 @@
 				9F03AFB617DDFE09008F6B03 /* Default.png in Resources */,
 				9F03AFB817DDFE09008F6B03 /* Default@2x.png in Resources */,
 				9F03AFBA17DDFE09008F6B03 /* Default-568h@2x.png in Resources */,
+				9F03AFCF17DDFE19008F6B03 /* bullet.png in Resources */,
+				9F03AFD017DDFE19008F6B03 /* bullet@2x.png in Resources */,
+				9F03AFD117DDFE19008F6B03 /* cloud1.png in Resources */,
+				9F03AFD217DDFE19008F6B03 /* cloud1@2x.png in Resources */,
+				9F03AFD317DDFE19008F6B03 /* cloud2.png in Resources */,
+				9F03AFD417DDFE19008F6B03 /* cloud2@2x.png in Resources */,
+				9F03AFD517DDFE19008F6B03 /* cloud3.png in Resources */,
+				9F03AFD617DDFE19008F6B03 /* cloud3@2x.png in Resources */,
+				9F03AFD717DDFE19008F6B03 /* enemy.png in Resources */,
+				9F03AFD817DDFE19008F6B03 /* enemy@2x.png in Resources */,
+				9F03AFD917DDFE19008F6B03 /* plane-rear-fire.png in Resources */,
+				9F03AFDA17DDFE19008F6B03 /* plane-rear-fire@2x.png in Resources */,
+				9F03AFDB17DDFE19008F6B03 /* plane.png in Resources */,
+				9F03AFDC17DDFE19008F6B03 /* plane@2x.png in Resources */,
+				9FF93FA917DE076B0088589C /* background.png in Resources */,
+				9FF93FAA17DE076B0088589C /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +287,10 @@
 			files = (
 				9F03AFB017DDFE09008F6B03 /* main.m in Sources */,
 				9F03AFB417DDFE09008F6B03 /* PLNAppDelegate.m in Sources */,
+				9F03AFE017DDFE41008F6B03 /* PLNEnemy.m in Sources */,
+				9F03AFE417DE00E7008F6B03 /* PLNMainViewController.m in Sources */,
+				9F03AFE817DE0291008F6B03 /* PLNMyPlaneView.m in Sources */,
+				9FF93FAF17DE12360088589C /* PLNEnemyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +405,7 @@
 				9F03AFBF17DDFE09008F6B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

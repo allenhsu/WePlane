@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class PLNMainViewController;
+
 @interface PLNAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) PLNMainViewController *mainViewController;
 
 @end
