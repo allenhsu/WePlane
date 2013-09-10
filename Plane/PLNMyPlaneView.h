@@ -12,5 +12,6 @@
 
 - (void)stopAnimation;
 - (void)beginAnimation;
+- (CGRect)hitRect;
 
 @end

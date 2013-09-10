@@ -9,9 +9,13 @@
 #import <QuartzCore/QuartzCore.h>
 #import "PLNMyPlaneView.h"
 
-#define kMyPlaneFireMargin    5.0
-#define kMyPlaneWidth         82.0
-#define kMyPlaneHeight        79.0 + 22.0 + kMyPlaneFireMargin
+#define kMyPlaneFireMargin      5.0
+#define kMyPlaneWidth           82.0
+#define kMyPlaneHeight          79.0 + 22.0 + kMyPlaneFireMargin
+#define kHitPaddingLeft         15.0
+#define kHitPaddingRight        15.0
+#define kHitPaddingTop          5.0
+#define kHitPaddingBottom       22.0 + kMyPlaneFireMargin
 
 @interface PLNMyPlaneView ()
 
@@ -67,6 +71,16 @@
     fireAnimation.duration = 0.1;
     fireAnimation.repeatCount = HUGE_VALF;
     [self.fireView.layer addAnimation:fireAnimation forKey:@"fireAnimation"];
+}
+
+- (CGRect)hitRect
+{
+    CGRect rect = self.frame;
+    rect.origin.x += kHitPaddingLeft;
+    rect.origin.y += kHitPaddingTop;
+    rect.size.width -= (kHitPaddingLeft + kHitPaddingRight);
+    rect.size.height -= (kHitPaddingTop + kHitPaddingBottom);
+    return rect;
 }
 
 /*

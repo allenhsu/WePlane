@@ -171,12 +171,11 @@
         self.gameBeginTime = time;
     }
     
-    // 难度系统，飞机越来越多，60 秒后到达高峰
+    // 简单的难度系统，飞机越来越多，调整 0.98
     
-    int level = (int)(time - self.gameBeginTime);
-    level = MIN(level, 59);
+    CGFloat level = 1.1 - powf(0.98, (time - self.gameBeginTime));
     
-    if (0 == rand() % (60 - level))
+    if (0 == arc4random() % (int)(6 / level))
     {
         [self newRandomEnemy];
     }
@@ -194,6 +193,8 @@
     BOOL isHit = NO;
     BOOL isCrash = NO;
     
+    CGRect hitRect = self.myPlaneView.hitRect;
+    
     for (PLNEnemyView *enemy in self.enemies) {
         enemy.center = CGPointMake(enemy.center.x, (time - enemy.beginTime) * enemy.speed);
         
@@ -206,28 +207,28 @@
             if (enemyDown) {
                 self.point += kPointPerPlane;
                 self.pointLabel.text = [NSString stringWithFormat:@"%u", self.point];
-                [enemy removeFromSuperview];
                 [enemiesToRemove addObject:enemy];
             }
         }
         
         // Crash Test
-        if (!enemyDown) {
-            isCrash = CGRectIntersectsRect(self.myPlaneView.frame, enemy.frame);
-        }
-        
-        if (isCrash) {
-            [self gameEnds];
+        if (!enemyDown && !isCrash) {
+            isCrash = CGRectIntersectsRect(hitRect, enemy.frame);
+            if (isCrash) {
+                [self gameEnds];
+            }
         }
         
         // Out of screen test
         
         if (enemy.frame.origin.y > self.view.bounds.size.height) {
-            [enemy removeFromSuperview];
             [enemiesToRemove addObject:enemy];
         }
     }
     
+    for (PLNEnemyView *enemy in enemiesToRemove) {
+        [enemy removeFromSuperview];
+    }
     [self.enemies removeObjectsInArray:enemiesToRemove];
     
     if (isHit || self.bulletView.frame.origin.y + self.bulletView.frame.size.height < 0.0) {
